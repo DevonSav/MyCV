@@ -183,6 +183,16 @@ html, body {
 }
 
 
+#profile-img{
+    float: left;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid $nav-btn-col;
+}
+
+
 /* REFERENCES
 Comment by omma2289: https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll
 */

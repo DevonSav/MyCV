@@ -157,6 +157,15 @@ html, body {
   margin-left: 35px;
 }
 
+#profile-img {
+  float: left;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(60, 60, 60);
+}
+
 /* REFERENCES
 Comment by omma2289: https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll
 */
