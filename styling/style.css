@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(30, 30, 34);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#copy-area {
+  position: absolute;
+  left: -999px;
+}
+
+.copy-btn {
+  margin-left: 35px;
+  min-width: 80px;
+  min-height: 20px;
+  padding: 4px 8px;
+  border-radius: 3px;
+  border: none;
+  text-align: center;
+  background-color: rgb(60, 60, 60);
+  color: whitesmoke;
+}
+
+.copy-btn:hover {
+  background-color: cadetblue;
+  color: whitesmoke;
+}
+
+.navigation-bar {
+  position: fixed;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+.first-btn {
+  background-color: rgb(60, 60, 60);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-right: 2px;
+}
+
+.mid-btn {
+  background-color: rgb(60, 60, 60);
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.last-btn {
+  background-color: rgb(60, 60, 60);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-left: 2px;
+}
+
+.navigation-bar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation-bar ul li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.navigation-bar ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  display: block;
+}
+
+.navigation-bar ul li a:hover {
+  background-color: cadetblue;
+}
+
+.header-container {
+  margin: 0px;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  border-bottom: solid 2px rgb(60, 60, 60);
+  background-image: linear-gradient(rgb(30, 30, 34), rgb(34, 34, 38));
+}
+
+.page-header {
+  color: whitesmoke;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.page-content-container {
+  margin-top: 50px;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.page-contents {
+  width: 50vw;
+  text-align: left;
+  color: whitesmoke;
+  background-color: rgb(34, 34, 38);
+}
+
+.page-contents h1 {
+  margin: 20px;
+}
+
+.page-contents h2 {
+  margin: 20px;
+}
+
+.page-contents h3 {
+  margin: 20px;
+  text-align: left;
+  border-bottom: solid 2px rgb(60, 60, 60);
+  max-width: 250px;
+  cursor: default;
+}
+
+.page-contents h4 {
+  margin: 30px;
+  text-align: left;
+  cursor: default;
+}
+
+.page-contents p {
+  margin-left: 35px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.page-contents a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.page-contents table {
+  margin-left: 35px;
+}
+
+/* REFERENCES
+Comment by omma2289: https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll
+*/
+/* TASK LIST, IGNORE
+DONE: Create an HTML page called index.html.
+TODO: On this page add any elements you would like to create a webpage that acts as an online CV. This is your personal webpage, so feel free to customise
+it to suit your needs but make sure that you include at least the following:
+    - A short bio. Add a short (no more than about three paragraphs) description of yourself. Who are you?
+        What is your experience? What are your passions? What motivates you? What is it that you would most like to do? Etc.
+    - Your contact details. E.g. name, contact number, email address, links to any of your (professional) social media including Linkedln. An image of yourself.
+    - A list of your skills and competencies.
+    - Describe your education.
+    - Describe your work experience.
+    - As you progress through this course you can keep adding to this personal webpage. For example, in the near future, you can describe
+        some projects that you have worked on and add links to the code (in GitHub).
+    - Add links to any blog posts or articles that you have written.
+
+TODO: Use CSS to style and position the elements on your webpage as attractively as possible. Feel free to use style libraries like Bootstrap.
+TODO: Create a new repository for this task called MyCV.
+TODO: Following the steps in Compulsory Task 1, deploy your webpage using GitHub Pages.
+TODO: Add the index.html file from this task into this task's folder as well as a screenshot of your deployed webpage.
+
+*//*# sourceMappingURL=style.css.map */

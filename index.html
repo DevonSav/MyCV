@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/946a03f5a9.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="styling/style.css">
+    <script type="text/javascript" src="scripts/main.js"></script>
+</head>
+
+<body onload="onPageLoad()">
+    <div class="header-container">
+        <div class="page-header">
+            <h1>Overview</h1>
+        </div>
+    </div>
+    <div class="navigation-bar">
+        <ul>
+            <li><a class="first-btn" href="index.html">About / Contact</a></li>
+            <!--<li><a class="mid-btn" href="index.html#contact-section">Contact</a></li>-->
+            <li><a class="last-btn" href="projects.html">My Projects</a></li>
+        </ul>
+    </div>
+
+    <br>
+    <div class="page-content-container">
+        <div class="page-contents">
+            <!--<h1>DEVON SAVILLE</h1>-->
+
+            <h3 id="personal-section">PERSONAL DETAILS</h3>
+                <table id="personal-details-tbl">
+                    <tr>
+                        <th>Name: </th>
+                        <td>Devon Saville</td>
+                    </tr>
+                    <tr>
+                        <th>DOB: </th>
+                        <td>17 September 2002</td>
+                    </tr>
+                    <tr>
+                        <th>Nationality: </th>
+                        <td>South African</td>
+                    </tr>
+                    <tr>
+                        <th>Language: </th>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <th>Drivers License: </th>
+                        <td>Learners</td>
+                    </tr>
+                </table>
+
+
+            <h3 id="contact-section">CONTACT DETAILS</h3>
+                <p><i class="fa-solid fa-at"></i> devon.tsaville@gmail.com</p>
+                <button class="copy-btn" onclick="copyText('devon.tsaville@gmail.com')">Copy Email</button>
+                <p><i class="fa-solid fa-mobile-screen"></i> (+27) 064 751 4054</p>
+                <button class="copy-btn" onclick="copyText('0647514054')">Copy Contact Number</button>
+                <p><i class="fa-brands fa-github"></i> <a href="https://github.com/DevonSav">github.com/DevonSav</a></p>
+                <button class="copy-btn" onclick="copyText('https://github.com/DevonSav')">Copy Link</button>
+                <p><i class="fa-solid fa-house"></i> Hout Bay, Cape Town</p>
+                <br>
+
+            <h3 id="about-section">ABOUT ME</h3>
+                <p>A passionate coder with a meticulous eye for detail, I enjoy tasks that require precision and accuracy.</p>
+                <p>I am an extremely hard worker and very tenacious when faced with technical challenges. I am good at finding creative solutions through my own research.
+                    I am also patient and able to work well with others in a team environment.
+                </p>
+                <p>In my free time I enjoy gamedev coding on a number of personal projects.</p>
+                <br>
+
+            <h3 id="education-section">EDUCATION</h3>
+                <table id="education-tbl">
+                    <tr>
+                        <th>2015 - 2019</th>
+                        <td>Hout Bay International School; IGCSE</td>
+                    </tr>
+                    <tr>
+                        <th>2020 - 2021</th>
+                        <td>Homeschooling; Cambridge AS + A-Levels</td>
+                    </tr>
+                    <tr>
+                        <th>2022</th>
+                        <td>HyperionDev; Full stack Web & Software Engineering</td>
+                    </tr>
+                </table>
+                <br>
+
+            <h3 id="skills-section">SKILLS</h3>
+                <p>I am very computer literate and capable of learning to use almost any software quickly.</p>
+                <p>I have a range of experience in multiple programming languages. Primarily <i>C#</i> and <i>Python</i>.</p>
+                <br>
+
+            <h3 id="goals-section">GOALS</h3>
+                <p>I would welcome any opportunities to gain experience in all fields of computer coding before specialising in my chosen area.</p>
+
+
+            <h3 id="hobby-section">HOBBIES AND PASSIONS</h3>
+                <p><i class="fa-solid fa-code"></i> Game Developement</p>
+                <p><i class="fa-solid fa-computer"></i> PC Gaming</p>
+                <p><i class="fa-solid fa-bicycle"></i> Cycling and Mountain Biking</p>
+                <br>
+
+
+
+            <br>
+        </div>
+    </div>
+</body>
+</html>
