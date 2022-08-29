@@ -1,2 +1,2 @@
 # My Personal CV
- A site with details about myself including links to my other projects.
+ A webpage with my CV including links to my other work. This will be updated as I create more projects.
